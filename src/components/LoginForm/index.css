@@ -1,0 +1,39 @@
+.website-login-logo {
+  align-self: center;
+  width: 130px;
+  height: 45px;
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.label {
+  margin-bottom: 5px;
+}
+.check-box-container {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+.submit-button {
+  background-color: rgb(8, 167, 240);
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.error-msg {
+  color: red;
+}
